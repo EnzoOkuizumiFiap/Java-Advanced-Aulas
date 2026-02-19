@@ -24,8 +24,10 @@ public class Carta {
     }
 
     //Métodos
-    public String ImagePath() {
-        return "classic-cards" + numero + naipe + ".png";
+    public String imagePath() {
+        String[] prefixos = {"", "Ace", "2", "3", "4", "5", "6", "7", "8", "9", "10", "Jack", "Queen", "King"};
+
+        return "classic-cards/" + prefixos[numero] + naipe + ".png";
     }
 
 }
