@@ -5,6 +5,7 @@ import br.com.fiap.movies.services.MovieService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.server.ResponseStatusException;
 
@@ -26,22 +27,38 @@ public class MovieController { //Beans - Controller é um componente
     }
 
     @PostMapping
-    @ResponseStatus(code = HttpStatus.CREATED)
-    public Movie createMovie(@RequestBody Movie movie) { //binding
-        return service.addMovie(movie);
+    public ResponseEntity<Movie> createMovie(@RequestBody Movie movie) { //binding
+        //return service.addMovie(movie); Antigo
+
+        //Novo com ResponseEntity
+        return ResponseEntity
+                .status(HttpStatus.CREATED) //.status(201) - Magic Number (RUIM)
+                .body(service.addMovie(movie)); // adicionando filme
     }
 
     @GetMapping("/{id}")
-    public Movie getMovieById(@PathVariable Long id) {
+    public ResponseEntity<Movie> getMovieById(@PathVariable Long id) {
         log.info("Obtendo dados do filme {}", id);
-        var optionalMovie = service.getMovieById(id);
 
-        if (optionalMovie.isEmpty()) {
-            throw new ResponseStatusException(HttpStatus.NOT_FOUND);
-        }
+        return ResponseEntity
+                .ok(service.getMovieById(id).orElseThrow(
+                        () -> new ResponseStatusException(HttpStatus.NOT_FOUND)
+                ));
+    }
 
-        return optionalMovie.get();
+    @DeleteMapping("{id}")
+    public ResponseEntity<Void> deleteMovie(@PathVariable Long id) {
+        log.info("Deletando filme com id {}", id);
+        service.deleteMovie(id);
 
+        return ResponseEntity.noContent().build();
+    }
+
+    @PutMapping("{id}")
+    public ResponseEntity<Movie> updateMovie(@PathVariable Long id, @RequestBody Movie movie) {
+        log.info("Atualizando Filme com id {} com os dados {}",  id, movie);
+
+        return ResponseEntity.ok(service.updateMovie(id, movie));
     }
 
 }
