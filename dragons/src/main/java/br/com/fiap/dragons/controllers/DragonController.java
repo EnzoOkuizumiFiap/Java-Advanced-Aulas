@@ -49,7 +49,7 @@ public class DragonController {
         log.info("Deletando Dragão com id {}", id);
         service.deleteDragon(id);
 
-        return ResponseEntity.ok().build();
+        return ResponseEntity.noContent().build();
     }
 
     //PUT Dragão
