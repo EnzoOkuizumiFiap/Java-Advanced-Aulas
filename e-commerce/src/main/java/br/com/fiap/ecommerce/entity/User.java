@@ -20,8 +20,12 @@ public class User {
     private Long id;
     private String name;
     private String cpf;
+    private String cnpj;
     private String email;
     private String password;
     private LocalDate birthDate;
     private Integer rating;
+
+    @Enumerated(EnumType.STRING)
+    private Role role; //Papel do Usuário
 }
