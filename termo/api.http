@@ -1,0 +1,16 @@
+### POST Create a new player
+POST http://localhost:8080/players
+Content-Type: application/json
+
+{
+  "name": "Enzo"
+}
+
+### POST Start a new game
+
+POST http://localhost:8080/games/start
+Content-Type: application/json
+
+{
+  "playerId": 1
+}

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TERMO - Jogo de Palavras</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-900 text-white min-h-screen">
+    <!-- Tela de Login -->
+    <div id="loginScreen" class="min-h-screen flex items-start justify-center pt-6 px-4">
+        <div class="bg-gray-800 p-8 rounded-lg shadow-lg w-full max-w-md">
+            <h1 class="text-4xl font-bold text-center mb-8 text-green-400">TERMO</h1>
+            <div class="space-y-4">
+                <input
+                    type="text"
+                    id="playerName"
+                    placeholder="Digite seu nome"
+                    class="w-full px-4 py-2 bg-gray-700 border border-gray-600 rounded focus:outline-none focus:border-green-400"
+                    maxlength="30"
+                >
+                <button
+                    onclick="startGame()"
+                    class="w-full bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded transition"
+                >
+                    Começar Jogo
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Tela do Jogo -->
+    <div id="gameScreen" class="hidden min-h-screen flex flex-col items-center pt-6 px-4 pb-8">
+        <div class="w-full max-w-md">
+            <div class="text-center mb-6">
+                <h1 class="text-4xl font-bold text-green-400 mb-2">TERMO</h1>
+                <p class="text-xl text-gray-400">Bem-vindo, <span id="playerNameDisplay"></span>!</p>
+                <p class="text-sm text-gray-500 mt-2">Tentativas: <span id="attempts">0</span>/6</p>
+            </div>
+
+            <!-- Histórico de Tentativas -->
+            <div id="attemptsHistory" class="space-y-2 mb-6 min-h-32">
+                <!-- As tentativas aparecerão aqui -->
+            </div>
+
+            <!-- Input para Chute -->
+            <div class="space-y-4">
+                <div id="guessInputs" class="flex justify-center gap-2">
+                    <input type="text" maxlength="1" inputmode="text" autocomplete="off" aria-label="Letra 1" class="guess-box w-12 h-14 bg-gray-700 border-2 border-gray-600 rounded text-center text-2xl font-bold uppercase focus:outline-none focus:border-green-400" data-index="0">
+                    <input type="text" maxlength="1" inputmode="text" autocomplete="off" aria-label="Letra 2" class="guess-box w-12 h-14 bg-gray-700 border-2 border-gray-600 rounded text-center text-2xl font-bold uppercase focus:outline-none focus:border-green-400" data-index="1">
+                    <input type="text" maxlength="1" inputmode="text" autocomplete="off" aria-label="Letra 3" class="guess-box w-12 h-14 bg-gray-700 border-2 border-gray-600 rounded text-center text-2xl font-bold uppercase focus:outline-none focus:border-green-400" data-index="2">
+                    <input type="text" maxlength="1" inputmode="text" autocomplete="off" aria-label="Letra 4" class="guess-box w-12 h-14 bg-gray-700 border-2 border-gray-600 rounded text-center text-2xl font-bold uppercase focus:outline-none focus:border-green-400" data-index="3">
+                    <input type="text" maxlength="1" inputmode="text" autocomplete="off" aria-label="Letra 5" class="guess-box w-12 h-14 bg-gray-700 border-2 border-gray-600 rounded text-center text-2xl font-bold uppercase focus:outline-none focus:border-green-400" data-index="4">
+                </div>
+                <button
+                    onclick="makeGuess()"
+                    class="w-full bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded transition"
+                >
+                    Chutar
+                </button>
+            </div>
+
+            <!-- Mensagens -->
+            <div id="message" class="mt-6 text-center text-lg font-semibold hidden"></div>
+
+            <!-- Tela de Vitória/Derrota -->
+            <div id="endGameScreen" class="hidden mt-8 text-center">
+                <div id="endGameMessage" class="text-3xl font-bold mb-4"></div>
+                <button
+                    onclick="restartGame()"
+                    class="w-full bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded transition"
+                >
+                    Jogar Novamente
+                </button>
+                <button
+                    onclick="goToLogin()"
+                    class="w-full bg-gray-600 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded transition mt-2"
+                >
+                    Mudar Jogador
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/game.js"></script>
+</body>
+</html>
+
