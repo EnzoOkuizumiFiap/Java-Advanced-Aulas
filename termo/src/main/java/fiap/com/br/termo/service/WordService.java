@@ -14,7 +14,6 @@ import java.time.LocalDate;
 @Service
 @RequiredArgsConstructor
 public class WordService {
-
     private final WordRepository wordRepository;
 
     public Word addWord(Word word){

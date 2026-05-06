@@ -11,10 +11,10 @@ import java.time.LocalDate;
 @Configuration
 @RequiredArgsConstructor
 public class MockData {
-
     private final WordService wordService;
 
-    @PostConstruct
+    // Diz ao Spring que o metodo init() deve ser executado logo após a criação do bean
+    @PostConstruct // Ou seja, assim que o Spring terminar de montar o objeto MockData, ele chama o metodo
     public void init(){
         wordService.addWord(Word.builder()
                 .word("CASAS")

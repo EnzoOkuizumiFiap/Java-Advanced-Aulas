@@ -7,7 +7,6 @@ Content-Type: application/json
 }
 
 ### POST Start a new game
-
 POST http://localhost:8080/games/start
 Content-Type: application/json
 

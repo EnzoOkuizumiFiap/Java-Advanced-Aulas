@@ -8,7 +8,6 @@ import org.springframework.stereotype.Service;
 @Service
 @RequiredArgsConstructor
 public class GameService {
-
     private final GameRepository gameRepository;
 
     public Game addGame(Game game) {

@@ -10,7 +10,6 @@ import org.springframework.web.server.ResponseStatusException;
 @Service
 @RequiredArgsConstructor
 public class PlayerService {
-
     private final PlayerRepository playerRepository;
 
     public Player addPlayer(Player player) {
@@ -18,11 +17,7 @@ public class PlayerService {
     }
 
     public Player getPlayerById(Long playerId) {
-        return playerRepository.findById(playerId).orElseThrow(
-                () -> new ResponseStatusException(
-                        HttpStatus.NOT_FOUND,
-                        "Player not found with id: " + playerId)
-        );
+        return playerRepository.findById(playerId).orElseThrow(() -> new ResponseStatusException(HttpStatus.NOT_FOUND,"Player not found with id: " + playerId));
     }
 
 }

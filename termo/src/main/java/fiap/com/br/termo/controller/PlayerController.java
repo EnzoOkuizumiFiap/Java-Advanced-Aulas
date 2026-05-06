@@ -8,13 +8,14 @@ import org.springframework.web.bind.annotation.*;
 @RestController
 @RequestMapping("/players")
 public class PlayerController {
-
     private final PlayerService playerService;
 
+    // Construtor
     public PlayerController(PlayerService playerService) {
         this.playerService = playerService;
     }
 
+    // DTOs
     public record PlayerRequest(String name){}
 
     @PostMapping
