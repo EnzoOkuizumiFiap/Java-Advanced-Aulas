@@ -19,11 +19,14 @@
         <option value="$PROJECT_DIR$/movies/pom.xml" />
         <option value="$PROJECT_DIR$/music/pom.xml" />
         <option value="$PROJECT_DIR$/projeto-anime/pom.xml" />
+        <option value="$PROJECT_DIR$/termo/pom.xml" />
+        <option value="$PROJECT_DIR$/services/pom.xml" />
+        <option value="$PROJECT_DIR$/Projeto-anime 2/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
-        <option value="$PROJECT_DIR$/Projeto-Anime 3/pom.xml" />
+        <option value="$PROJECT_DIR$/projeto-anime/pom.xml" />
       </set>
     </option>
   </component>

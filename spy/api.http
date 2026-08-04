@@ -1,0 +1,12 @@
+### GET list all mission
+GET http://localhost:8080/missions
+Authorization: Basic enzo 123456
+
+### POST create a new mission
+POST http://localhost:8080/missions
+Content-Type: application/json
+
+{
+  "name": "Localizar o inimigo",
+  "description": "Identificar a localização do inimigo e colocar informações sobre suas atividades"
+}
