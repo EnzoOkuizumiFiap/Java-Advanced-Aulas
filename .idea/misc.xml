@@ -1,11 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/spy" />
+  </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/vinteum/pom.xml" />
+        <option value="$PROJECT_DIR$/Projeto-Anime 3/pom.xml" />
+        <option value="$PROJECT_DIR$/cervejaria/pom.xml" />
+        <option value="$PROJECT_DIR$/character/pom.xml" />
+        <option value="$PROJECT_DIR$/dragons/pom.xml" />
+        <option value="$PROJECT_DIR$/e-commerce/pom.xml" />
+        <option value="$PROJECT_DIR$/expense-tracker/pom.xml" />
+        <option value="$PROJECT_DIR$/game-finder/pom.xml" />
+        <option value="$PROJECT_DIR$/heroes/pom.xml" />
+        <option value="$PROJECT_DIR$/movies/pom.xml" />
+        <option value="$PROJECT_DIR$/music/pom.xml" />
+        <option value="$PROJECT_DIR$/projeto-anime/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/Projeto-Anime 3/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
