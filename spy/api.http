@@ -10,3 +10,12 @@ Content-Type: application/json
   "name": "Localizar o inimigo",
   "description": "Identificar a localização do inimigo e colocar informações sobre suas atividades"
 }
+
+### POST Login
+POST localhost:8080/login
+Content-Type: application/json
+
+{
+    "username": "enzo",
+    "password": "123456"
+}
