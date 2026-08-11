@@ -1,6 +1,6 @@
 ### GET list all mission
 GET http://localhost:8080/missions
-Authorization: Basic enzo 123456
+Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiYWRtaW4iOnRydWUsImlhdCI6MTc4NjU0Mjc0M30.kJrqW07raEjMlgW4FBxQ9cisFlKF2hyecjqTqk1t5dMhsM5hkaC1TDCzOzimXNfs0xsIg4aXtLoxqSDPXHSaiNz0gf1QSPk6n-IH8VI1Pnlp-hNScvKu0HSY_ZD74qnGSz-iBMtZ1I_gHrVpkWBuF9MIbHQaDk3iJvRzJZCFp7iI7XKJsoNsD3wOH2XiOsxxus1Yojqo7doFW2V4hVuZEzrGTrQzmqgmv5UnlnJUHORg1gEsdYpmKRxK_ljEufhu7DUk05x1PbQ-_7qLUhtepDJpW0XIkNsdzkqKHsQiis92P12aDfbBjd6gpWSfIny-qIRzIZUx0sshY7TAehJcvg
 
 ### POST create a new mission
 POST http://localhost:8080/missions
@@ -14,8 +14,4 @@ Content-Type: application/json
 ### POST Login
 POST localhost:8080/login
 Content-Type: application/json
-
-{
-    "username": "enzo",
-    "password": "123456"
-}
+Authorization: Basic maria 123456
