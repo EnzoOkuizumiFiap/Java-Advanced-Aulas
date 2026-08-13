@@ -12,14 +12,6 @@
         <module name="game-finder" />
         <module name="services" />
       </profile>
-      <profile name="Gradle Imported" enabled="true">
-        <outputRelativeToContentRoot value="true" />
-        <processorPath useClasspath="false">
-          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.projectlombok/lombok/1.18.46/a5cfe99fdf320e84955ef653f2ce1bf789d11385/lombok-1.18.46.jar" />
-        </processorPath>
-        <module name="spy.main" />
-        <module name="spy.test" />
-      </profile>
       <profile name="Annotation profile for heroes" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
@@ -55,6 +47,14 @@
         <module name="cervejaria" />
         <module name="termo" />
       </profile>
+      <profile name="Gradle Imported" enabled="true">
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.projectlombok/lombok/1.18.46/a5cfe99fdf320e84955ef653f2ce1bf789d11385/lombok-1.18.46.jar" />
+        </processorPath>
+        <module name="mypass.main" />
+        <module name="mypass.test" />
+      </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
@@ -71,6 +71,9 @@
       <module name="heroes" options="-parameters" />
       <module name="movies" options="-parameters" />
       <module name="music" options="-parameters" />
+      <module name="mypass" options="-parameters" />
+      <module name="mypass.main" options="-parameters" />
+      <module name="mypass.test" options="-parameters" />
       <module name="services" options="-parameters" />
       <module name="spy" options="-parameters" />
       <module name="spy.main" options="-parameters" />
