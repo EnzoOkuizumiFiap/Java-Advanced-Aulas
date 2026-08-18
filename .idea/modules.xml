@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Java-Advanced-Aulas.iml" filepath="$PROJECT_DIR$/.idea/Java-Advanced-Aulas.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fiap-movies/fiap-movies.iml" filepath="$PROJECT_DIR$/fiap-movies/fiap-movies.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/spy.main.iml" filepath="$PROJECT_DIR$/.idea/modules/spy.main.iml" />
     </modules>
   </component>
