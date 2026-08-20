@@ -35,7 +35,7 @@ public class SecurityConfig {
     public record RsaKeyProperties(RSAPublicKey publicKey, RSAPrivateKey privateKey) {}
 
     @Bean
-    SecurityFilterChain filterChain(HttpSecurity http, JwtAuthenticationConverter jwtAuthenticationConverter) throws Exception {
+    SecurityFilterChain filterChain(HttpSecurity http) throws Exception {
         return http
                 .authorizeHttpRequests(auth -> auth
                         .requestMatchers(HttpMethod.POST,"/users").permitAll()

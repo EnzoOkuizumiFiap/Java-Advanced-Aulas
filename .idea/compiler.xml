@@ -52,8 +52,15 @@
         <processorPath useClasspath="false">
           <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.projectlombok/lombok/1.18.46/a5cfe99fdf320e84955ef653f2ce1bf789d11385/lombok-1.18.46.jar" />
         </processorPath>
-        <module name="FiapMovies.main" />
-        <module name="FiapMovies.test" />
+        <module name="car-sale.test" />
+      </profile>
+      <profile name="Gradle Imported" enabled="true">
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.projectlombok/lombok/1.18.46/a5cfe99fdf320e84955ef653f2ce1bf789d11385/lombok-1.18.46.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-configuration-processor/4.1.0/c3e27f93b579220e4e18fe941321525200eb36b/spring-boot-configuration-processor-4.1.0.jar" />
+        </processorPath>
+        <module name="car-sale.main" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -68,6 +75,9 @@
       <module name="animes" options="-parameters" />
       <module name="animes (2)" options="-parameters" />
       <module name="animes (3)" options="-parameters" />
+      <module name="car-sale" options="-parameters" />
+      <module name="car-sale.main" options="-parameters" />
+      <module name="car-sale.test" options="-parameters" />
       <module name="cervejaria" options="-parameters" />
       <module name="character" options="-parameters" />
       <module name="dragons" options="-parameters" />
