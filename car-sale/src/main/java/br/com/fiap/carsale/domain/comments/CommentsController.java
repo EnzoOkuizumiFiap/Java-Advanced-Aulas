@@ -4,8 +4,6 @@ import br.com.fiap.carsale.domain.user.UserRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.security.access.prepost.PreAuthorize;
-import org.springframework.security.core.annotation.AuthenticationPrincipal;
-import org.springframework.security.oauth2.jwt.Jwt;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -24,9 +22,7 @@ public class CommentsController {
 
     @PostMapping
     @PreAuthorize("hasAnyRole('USER', 'ADMIN')") // E ESSA LINHA TAMBÉM
-    public Comment createComment(@RequestBody CommentRequest commentRequest, @AuthenticationPrincipal Jwt jwt) {
-        var user = userRepository.findByUsername(jwt.getSubject()).get();
-
+    public Comment createComment(@RequestBody CommentRequest commentRequest) {
         return commentService.createComment(commentRequest.toModel());
     }
 

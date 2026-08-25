@@ -38,6 +38,14 @@
           </set>
         </option>
       </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/weather-planner" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/weather-planner" />
+          </set>
+        </option>
+      </GradleProjectSettings>
     </option>
   </component>
 </project>

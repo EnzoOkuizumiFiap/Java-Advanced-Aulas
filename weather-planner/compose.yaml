@@ -1,0 +1,10 @@
+services:
+  postgres:
+    image: 'postgres:latest'
+    container_name: 'postgres_weatherplanner-pg'
+    environment:
+      - 'POSTGRES_DB=weatherplanner'
+      - 'POSTGRES_PASSWORD=weatherplanner'
+      - 'POSTGRES_USER=weatherplanner'
+    ports:
+      - '5432:5432'
