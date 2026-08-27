@@ -52,11 +52,13 @@
         <processorPath useClasspath="false">
           <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.projectlombok/lombok/1.18.46/a5cfe99fdf320e84955ef653f2ce1bf789d11385/lombok-1.18.46.jar" />
         </processorPath>
-        <module name="weather-planner.main" />
-        <module name="weather-planner.test" />
+        <module name="cripto-planner.main" />
+        <module name="cripto-planner.test" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="cripto.main" target="17" />
+      <module name="cripto.test" target="17" />
       <module name="FiapMovies" target="17" />
     </bytecodeTargetLevel>
   </component>
@@ -73,6 +75,11 @@
       <module name="car-sale.test" options="-parameters" />
       <module name="cervejaria" options="-parameters" />
       <module name="character" options="-parameters" />
+      <module name="cripto-planner" options="-parameters" />
+      <module name="cripto-planner.main" options="-parameters" />
+      <module name="cripto-planner.test" options="-parameters" />
+      <module name="cripto.main" options="-parameters" />
+      <module name="cripto.test" options="-parameters" />
       <module name="dragons" options="-parameters" />
       <module name="e-commerce" options="-parameters" />
       <module name="expense-tracker" options="-parameters" />

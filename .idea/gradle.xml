@@ -23,6 +23,14 @@
         </option>
       </GradleProjectSettings>
       <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/cripto-planner" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/cripto-planner" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
         <option name="externalProjectPath" value="$PROJECT_DIR$/mypass" />
         <option name="modules">
           <set>
