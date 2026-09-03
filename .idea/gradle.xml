@@ -15,6 +15,14 @@
         </option>
       </GradleProjectSettings>
       <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/board-vault" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/board-vault" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
         <option name="externalProjectPath" value="$PROJECT_DIR$/car-sale" />
         <option name="modules">
           <set>

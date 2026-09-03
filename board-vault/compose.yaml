@@ -1,0 +1,9 @@
+services:
+  postgres:
+    image: 'postgres:latest'
+    environment:
+      - 'POSTGRES_DB=boardgamesbanco'
+      - 'POSTGRES_PASSWORD=123mudar'
+      - 'POSTGRES_USER=enzo'
+    ports:
+      - '5432'
