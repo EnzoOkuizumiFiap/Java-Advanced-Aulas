@@ -1,0 +1,8 @@
+### GET list tickets
+GET localhost:8080/tickets
+
+### POST purchase ticket
+POST localhost:8080/tickets/purchase/
+
+### POST process payment
+POST localhost:8081/payments

@@ -55,6 +55,33 @@
         </option>
       </GradleProjectSettings>
       <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/ticket-system" />
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/ticket-system/payment-service" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/ticket-system/payment-service" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/ticket-system/service-descover" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/ticket-system/service-descover" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/ticket-system/ticket-service" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/ticket-system/ticket-service" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
         <option name="externalProjectPath" value="$PROJECT_DIR$/weather-planner" />
         <option name="modules">
           <set>

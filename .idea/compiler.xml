@@ -52,8 +52,8 @@
         <processorPath useClasspath="false">
           <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.projectlombok/lombok/1.18.46/a5cfe99fdf320e84955ef653f2ce1bf789d11385/lombok-1.18.46.jar" />
         </processorPath>
-        <module name="board-vault.main" />
-        <module name="board-vault.test" />
+        <module name="ticket-service.main" />
+        <module name="ticket-service.test" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -93,11 +93,20 @@
       <module name="mypass" options="-parameters" />
       <module name="mypass.main" options="-parameters" />
       <module name="mypass.test" options="-parameters" />
+      <module name="payment-service" options="-parameters" />
+      <module name="payment-service.main" options="-parameters" />
+      <module name="payment-service.test" options="-parameters" />
+      <module name="service-descover" options="-parameters" />
+      <module name="service-descover.main" options="-parameters" />
+      <module name="service-descover.test" options="-parameters" />
       <module name="services" options="-parameters" />
       <module name="spy" options="-parameters" />
       <module name="spy.main" options="-parameters" />
       <module name="spy.test" options="-parameters" />
       <module name="termo" options="-parameters" />
+      <module name="ticket-service" options="-parameters" />
+      <module name="ticket-service.main" options="-parameters" />
+      <module name="ticket-service.test" options="-parameters" />
       <module name="weather-planner" options="-parameters" />
       <module name="weather-planner.main" options="-parameters" />
       <module name="weather-planner.test" options="-parameters" />
