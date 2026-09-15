@@ -12,41 +12,6 @@
         <module name="game-finder" />
         <module name="services" />
       </profile>
-      <profile name="Annotation profile for heroes" enabled="true">
-        <sourceOutputDir name="target/generated-sources/annotations" />
-        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <processorPath useClasspath="false">
-          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.42/lombok-1.18.42.jar" />
-        </processorPath>
-        <module name="heroes" />
-        <module name="expense-tracker" />
-        <module name="dragons" />
-      </profile>
-      <profile name="Annotation profile for music" enabled="true">
-        <sourceOutputDir name="target/generated-sources/annotations" />
-        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <processorPath useClasspath="false">
-          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.44/lombok-1.18.44.jar" />
-        </processorPath>
-        <module name="e-commerce" />
-        <module name="character" />
-        <module name="animes" />
-        <module name="music" />
-        <module name="animes (2)" />
-        <module name="animes (3)" />
-      </profile>
-      <profile name="Annotation profile for termo" enabled="true">
-        <sourceOutputDir name="target/generated-sources/annotations" />
-        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <processorPath useClasspath="false">
-          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.46/lombok-1.18.46.jar" />
-        </processorPath>
-        <module name="cervejaria" />
-        <module name="termo" />
-      </profile>
       <profile name="Gradle Imported" enabled="true">
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="false">
@@ -54,6 +19,52 @@
         </processorPath>
         <module name="ticket-service.main" />
         <module name="ticket-service.test" />
+      </profile>
+      <profile name="Annotation profile for heroes" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.42/lombok-1.18.42.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.42/lombok-1.18.42.jar" />
+        </processorPath>
+        <module name="heroes" />
+        <module name="expense-tracker" />
+        <module name="dragons" />
+      </profile>
+      <profile name="Annotation profile for animes" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.44/lombok-1.18.44.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.44/lombok-1.18.44.jar" />
+        </processorPath>
+        <module name="e-commerce" />
+        <module name="character" />
+        <module name="projeto-anime 3" />
+        <module name="music" />
+        <module name="projeto-anime 2" />
+      </profile>
+      <profile name="Annotation profile for termo" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.46/lombok-1.18.46.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.46/lombok-1.18.46.jar" />
+        </processorPath>
+        <module name="cervejaria" />
+        <module name="termo" />
+      </profile>
+      <profile name="Annotation profile for projeto-anime 1" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.44/lombok-1.18.44.jar" />
+        </processorPath>
+        <module name="projeto-anime 1" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -67,9 +78,6 @@
       <module name="FiapMovies" options="-parameters" />
       <module name="FiapMovies.main" options="-parameters" />
       <module name="FiapMovies.test" options="-parameters" />
-      <module name="animes" options="-parameters" />
-      <module name="animes (2)" options="-parameters" />
-      <module name="animes (3)" options="-parameters" />
       <module name="board-vault" options="-parameters" />
       <module name="board-vault.main" options="-parameters" />
       <module name="board-vault.test" options="-parameters" />
@@ -96,6 +104,9 @@
       <module name="payment-service" options="-parameters" />
       <module name="payment-service.main" options="-parameters" />
       <module name="payment-service.test" options="-parameters" />
+      <module name="projeto-anime 1" options="-parameters" />
+      <module name="projeto-anime 2" options="-parameters" />
+      <module name="projeto-anime 3" options="-parameters" />
       <module name="service-descover" options="-parameters" />
       <module name="service-descover.main" options="-parameters" />
       <module name="service-descover.test" options="-parameters" />
