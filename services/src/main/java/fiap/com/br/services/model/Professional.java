@@ -87,6 +87,6 @@ public class Professional {
         var linkSelf = linkTo(methodOn(ProfessionalController.class).findById(id)).withSelfRel().withTitle("Professional Details");
         var linkNearby = linkTo(methodOn(ProfessionalController.class).findByLocationId(this.location.getId())).withRel("nearby-locations").withTitle("Nearby Professionals");
 
-        return EntityModel.of(this, linkAllProfessional, linkSelf);
+        return EntityModel.of(this, linkAllProfessional, linkSelf, linkNearby);
     }
 }

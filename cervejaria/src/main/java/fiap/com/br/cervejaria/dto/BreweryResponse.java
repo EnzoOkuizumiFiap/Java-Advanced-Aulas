@@ -1,6 +1,5 @@
 package fiap.com.br.cervejaria.dto;
 
-import fiap.com.br.cervejaria.entity.Beer;
 import fiap.com.br.cervejaria.entity.Brewery;
 
 public record BreweryResponse (

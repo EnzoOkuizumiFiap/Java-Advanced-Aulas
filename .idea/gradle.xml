@@ -4,17 +4,6 @@
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
-        <option name="externalProjectPath" value="$PROJECT_DIR$/CarSale" />
-      </GradleProjectSettings>
-      <GradleProjectSettings>
-        <option name="externalProjectPath" value="$PROJECT_DIR$/FiapMovies" />
-        <option name="modules">
-          <set>
-            <option value="$PROJECT_DIR$/FiapMovies" />
-          </set>
-        </option>
-      </GradleProjectSettings>
-      <GradleProjectSettings>
         <option name="externalProjectPath" value="$PROJECT_DIR$/board-vault" />
         <option name="modules">
           <set>
@@ -39,10 +28,34 @@
         </option>
       </GradleProjectSettings>
       <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/fiap-movies" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/fiap-movies" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
         <option name="externalProjectPath" value="$PROJECT_DIR$/mypass" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$/mypass" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/paredao/vote-aggregator" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/paredao/vote-aggregator" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/paredao/voting-gateway" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/paredao/voting-gateway" />
           </set>
         </option>
       </GradleProjectSettings>
@@ -53,9 +66,6 @@
             <option value="$PROJECT_DIR$/spy" />
           </set>
         </option>
-      </GradleProjectSettings>
-      <GradleProjectSettings>
-        <option name="externalProjectPath" value="$PROJECT_DIR$/ticket-system" />
       </GradleProjectSettings>
       <GradleProjectSettings>
         <option name="externalProjectPath" value="$PROJECT_DIR$/ticket-system/payment-service" />

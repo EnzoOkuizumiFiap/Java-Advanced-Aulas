@@ -3,11 +3,16 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Java-Advanced-Aulas.iml" filepath="$PROJECT_DIR$/.idea/Java-Advanced-Aulas.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/board-vault.main.iml" filepath="$PROJECT_DIR$/.idea/modules/board-vault.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/board-vault.test.iml" filepath="$PROJECT_DIR$/.idea/modules/board-vault.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/car-sale.main.iml" filepath="$PROJECT_DIR$/.idea/modules/car-sale.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/cripto-planner.main.iml" filepath="$PROJECT_DIR$/.idea/modules/cripto-planner.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/fiap-movies.main.iml" filepath="$PROJECT_DIR$/.idea/modules/fiap-movies.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/mypass.main.iml" filepath="$PROJECT_DIR$/.idea/modules/mypass.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/mypass.test.iml" filepath="$PROJECT_DIR$/.idea/modules/mypass.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/spy.main.iml" filepath="$PROJECT_DIR$/.idea/modules/spy.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ticket-service.main.iml" filepath="$PROJECT_DIR$/.idea/modules/ticket-service.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/weather-planner.main.iml" filepath="$PROJECT_DIR$/.idea/modules/weather-planner.main.iml" />
     </modules>
   </component>
 </project>

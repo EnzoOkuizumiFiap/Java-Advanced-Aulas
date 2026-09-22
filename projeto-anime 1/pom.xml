@@ -9,7 +9,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>br.com.fiap</groupId>
-    <artifactId>projeto-anime 1</artifactId>
+    <artifactId>animes</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>animes</name>
     <description>Projeto sobre site "pirata" de Anime</description>
@@ -68,6 +68,10 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-webmvc-test</artifactId>
             <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.data</groupId>
+            <artifactId>spring-data-jpa</artifactId>
         </dependency>
     </dependencies>
 

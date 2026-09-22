@@ -8,7 +8,6 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import org.springframework.hateoas.EntityModel;
-import org.springframework.hateoas.server.core.Relation;
 
 import java.time.LocalDate;
 
