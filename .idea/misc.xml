@@ -8,6 +8,10 @@
     <file type="web" url="file://$PROJECT_DIR$/fiap-movies" />
     <file type="web" url="file://$PROJECT_DIR$/mypass" />
     <file type="web" url="file://$PROJECT_DIR$/paredao/voting-gateway" />
+    <file type="web" url="file://$PROJECT_DIR$/space-mining/command-service" />
+    <file type="web" url="file://$PROJECT_DIR$/space-mining/eureka-server" />
+    <file type="web" url="file://$PROJECT_DIR$/space-mining/mining-service" />
+    <file type="web" url="file://$PROJECT_DIR$/space-mining/validator-service" />
     <file type="web" url="file://$PROJECT_DIR$/spy" />
     <file type="web" url="file://$PROJECT_DIR$/ticket-system/payment-service" />
     <file type="web" url="file://$PROJECT_DIR$/ticket-system/service-descover" />

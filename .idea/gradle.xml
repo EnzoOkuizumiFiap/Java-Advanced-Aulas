@@ -60,6 +60,30 @@
         </option>
       </GradleProjectSettings>
       <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/space-mining/command-service" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/space-mining/command-service" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/space-mining/eureka-server" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/space-mining/eureka-server" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/space-mining/mining-service" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/space-mining/mining-service" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
         <option name="externalProjectPath" value="$PROJECT_DIR$/spy" />
         <option name="modules">
           <set>
@@ -88,6 +112,14 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$/ticket-system/ticket-service" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/space-mining/validator-service" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/space-mining/validator-service" />
           </set>
         </option>
       </GradleProjectSettings>
