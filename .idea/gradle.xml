@@ -52,6 +52,14 @@
         </option>
       </GradleProjectSettings>
       <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/navi" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/navi" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
         <option name="externalProjectPath" value="$PROJECT_DIR$/paredao/vote-aggregator" />
         <option name="modules">
           <set>

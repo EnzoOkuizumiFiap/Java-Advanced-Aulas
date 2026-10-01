@@ -4,9 +4,12 @@
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/board-vault" />
     <file type="web" url="file://$PROJECT_DIR$/car-sale" />
+    <file type="web" url="file://$PROJECT_DIR$/chat" />
     <file type="web" url="file://$PROJECT_DIR$/cripto-planner" />
     <file type="web" url="file://$PROJECT_DIR$/fiap-movies" />
     <file type="web" url="file://$PROJECT_DIR$/mypass" />
+    <file type="web" url="file://$PROJECT_DIR$/navi" />
+    <file type="web" url="file://$PROJECT_DIR$/paredao/vote-aggregator" />
     <file type="web" url="file://$PROJECT_DIR$/paredao/voting-gateway" />
     <file type="web" url="file://$PROJECT_DIR$/space-mining/command-service" />
     <file type="web" url="file://$PROJECT_DIR$/space-mining/eureka-server" />

@@ -1,0 +1,5 @@
+@import url(https://cdn.jsdelivr.net/fontsource/css/fira-code@latest/index.css);
+
+html {
+    --aura-font-family: Fira Code;
+}
