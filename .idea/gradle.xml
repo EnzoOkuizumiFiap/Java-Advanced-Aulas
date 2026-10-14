@@ -140,6 +140,14 @@
         </option>
       </GradleProjectSettings>
       <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/trip-canvas" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/trip-canvas" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
         <option name="externalProjectPath" value="$PROJECT_DIR$/weather-planner" />
         <option name="modules">
           <set>

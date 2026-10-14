@@ -63,8 +63,8 @@
         <processorPath useClasspath="false">
           <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.projectlombok/lombok/1.18.46/a5cfe99fdf320e84955ef653f2ce1bf789d11385/lombok-1.18.46.jar" />
         </processorPath>
-        <module name="navi.main" />
-        <module name="navi.test" />
+        <module name="trip-canvas.main" />
+        <module name="trip-canvas.test" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -136,6 +136,9 @@
       <module name="ticket-service" options="-parameters" />
       <module name="ticket-service.main" options="-parameters" />
       <module name="ticket-service.test" options="-parameters" />
+      <module name="trip-canvas" options="-parameters" />
+      <module name="trip-canvas.main" options="-parameters" />
+      <module name="trip-canvas.test" options="-parameters" />
       <module name="validator-service" options="-parameters" />
       <module name="validator-service.main" options="-parameters" />
       <module name="validator-service.test" options="-parameters" />
