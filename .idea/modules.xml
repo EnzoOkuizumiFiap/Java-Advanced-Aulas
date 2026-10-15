@@ -15,6 +15,7 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/mypass.main.iml" filepath="$PROJECT_DIR$/.idea/modules/mypass.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/mypass.test.iml" filepath="$PROJECT_DIR$/.idea/modules/mypass.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/navi.main.iml" filepath="$PROJECT_DIR$/.idea/modules/navi.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/recipeplan.main.iml" filepath="$PROJECT_DIR$/.idea/modules/recipeplan.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/spy.main.iml" filepath="$PROJECT_DIR$/.idea/modules/spy.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ticket-service.main.iml" filepath="$PROJECT_DIR$/.idea/modules/ticket-service.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/validator-service.main.iml" filepath="$PROJECT_DIR$/.idea/modules/validator-service.main.iml" />

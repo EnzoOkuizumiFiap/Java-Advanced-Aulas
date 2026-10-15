@@ -11,6 +11,7 @@
     <file type="web" url="file://$PROJECT_DIR$/navi" />
     <file type="web" url="file://$PROJECT_DIR$/paredao/vote-aggregator" />
     <file type="web" url="file://$PROJECT_DIR$/paredao/voting-gateway" />
+    <file type="web" url="file://$PROJECT_DIR$/recipe-plan" />
     <file type="web" url="file://$PROJECT_DIR$/space-mining/command-service" />
     <file type="web" url="file://$PROJECT_DIR$/space-mining/eureka-server" />
     <file type="web" url="file://$PROJECT_DIR$/space-mining/mining-service" />
